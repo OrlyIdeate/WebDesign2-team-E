@@ -1,4 +1,5 @@
 import { Square } from './Square';
+import { Footer } from './footer';
 import { sum } from './sum';
 
  // Aさん
@@ -19,7 +20,7 @@ export default function App() {
       <div className="board-row">
         <Square />
         <Square />
-        <Square />
+        < Footer/>
       </div>      
     </>
   );
