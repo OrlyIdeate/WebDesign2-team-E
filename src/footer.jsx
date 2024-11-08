@@ -8,11 +8,15 @@ export function Footer() {
                 </div>
                 <div class="footer-links">
                     <h3>リンク</h3>
+                    <p>会社名</p>
+                    <p>住所</p>
                     <ul>
                         <li><a href="/about">会社概要</a></li>
-                        <li><a href="/contact">お問い合わせ</a></li>
+                        <li><a href="/contact">採用情報</a></li>
                         <li><a href="/privacy">プライバシーポリシー</a></li>
                         <li><a href="/terms">利用規約</a></li>
+                        <li><a href="/about">アクセス</a></li>
+                        <li><a href="/about">お問い合わせ</a></li>
                     </ul>
                 </div>
                 <div class="footer-social">
