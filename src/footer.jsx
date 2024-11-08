@@ -1,8 +1,3 @@
-import twitter from './image/twitter-icon.png';
-import facebook from'./image/facebook-icon.png';
-import instagram from'image\instagram-icon.png';
-
-
 export function Footer() {
     return(
         <footer>
@@ -28,7 +23,7 @@ export function Footer() {
                 <div class="footer-social">
                     <h3>フォローする</h3>
                     <ul>
-                        <li><a href="https://twitter.com" target="_blank"><img src={twitter} alt="X"/></a></li>
+                        <li><a href="https://twitter.com" target="_blank"><img src=".\images\twitter-icon.png" alt="X"/></a></li>
                         <li><a href="https://facebook.com" target="_blank"><img src="facebook-icon.png" alt="Facebook"/></a></li>
                         <li><a href="https://instagram.com" target="_blank"><img src="facebook-icon.png" alt="instagram"/></a></li>
                     </ul>
