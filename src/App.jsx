@@ -3,7 +3,6 @@ import { Header } from './header';
 import { Sidebar } from './sidebar';
 import { Card } from './card';
 import React, { useState } from 'react';
-// import './Sidebar.css'; // スタイルは別ファイルに分けることをお勧めします
 
 
 export default function App() {
