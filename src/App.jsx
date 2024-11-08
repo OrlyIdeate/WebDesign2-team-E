@@ -1,5 +1,7 @@
 import { Square } from './Square';
 import { Footer } from './footer';
+import { Header } from './header';
+import { Sidebar } from './sidebar';
 import { sum } from './sum';
 
  // Aさん
