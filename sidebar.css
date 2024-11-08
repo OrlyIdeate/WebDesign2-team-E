@@ -9,7 +9,7 @@ body {
 .sidebar {
     width: 250px;
     background-color: #333;
-    color: white;
+    color: rgb(215, 230, 86);
     height: 100vh;
     padding-top: 20px;
 }
@@ -24,7 +24,7 @@ body {
 }
 
 .menu-item {
-    color: white;
+    color: rgb(255, 211, 190);
     text-decoration: none;
     font-size: 18px;
     padding: 10px;
