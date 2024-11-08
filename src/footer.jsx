@@ -4,12 +4,13 @@ export function Footer() {
 
             <div class="footer-container">
                 <div class="footer-logo">
-                    <img src="logo.png" alt="Company Logo"/>
+                    <img src="image/team.png" alt="Company Logo" />
                 </div>
                 <div class="footer-links">
-                    <h3>リンク</h3>
-                    <p>会社名</p>
-                    <p>住所</p>
+                    <h3>team-E company</h3>
+                    <p>📞0120-000-000</p>
+                    <p>〒000-0000</p>
+                    <p>福岡県福岡市博多区祇園町7-10</p>
                     <ul>
                         <li><a href="/about">会社概要</a></li>
                         <li><a href="/contact">採用情報</a></li>
@@ -22,14 +23,14 @@ export function Footer() {
                 <div class="footer-social">
                     <h3>フォローする</h3>
                     <ul>
-                        <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
-                        <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
-                        <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+                        <li><a href="https://twitter.com" target="_blank"><img src=".\images\twitter-icon.png" alt="X"/></a></li>
+                        <li><a href="https://facebook.com" target="_blank"><img src="facebook-icon.png" alt="Facebook"/></a></li>
+                        <li><a href="https://instagram.com" target="_blank"><img src="facebook-icon.png" alt="instagram"/></a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 会社名. All rights reserved.</p>
+                <p>&copy; 2024 team-E company. All rights reserved.</p>
             </div>
         </footer>
     );
