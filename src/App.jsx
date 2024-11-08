@@ -1,8 +1,9 @@
 import { Footer } from './footer';
 import { Header } from './header';
 import { Sidebar } from './sidebar';
+import { Card } from './card';
 import React, { useState } from 'react';
-import './Sidebar.css'; // スタイルは別ファイルに分けることをお勧めします
+// import './Sidebar.css'; // スタイルは別ファイルに分けることをお勧めします
 
 
 export default function App() {
@@ -14,7 +15,7 @@ export default function App() {
         <div style={{ display: 'flex', flex: 1, marginTop: '60px' }}>
           <Sidebar style={{ position: 'fixed', left: 0, height: '100%' }} />
           <div style={{ marginLeft: '200px', padding: '20px', width: '100%' }}>
-
+            <Card imageSrc="./images/product/apple.jpg" />
           </div>
         </div>
         <Footer style={{ position: 'fixed', bottom: 0, width: '100%' }} />
