@@ -1,6 +1,8 @@
 import { Footer } from './footer';
 import { Header } from './header';
 import { Sidebar } from './sidebar';
+import React, { useState } from 'react';
+import './Sidebar.css'; // スタイルは別ファイルに分けることをお勧めします
 
 
 export default function App() {
