@@ -9,19 +9,7 @@ export default function App() {
 
   return (
     <>
-      <div className="board-row">
-        {/* 後でBさんが作ったコンポーネントをインポートして使う */}
-      </div>
-      <div className="board-row">
-        <Square />
-        <Square />
-        <Square />
-      </div>
-      <div className="board-row">
-        <Square />
-        <Square />
-        < Footer/>
-      </div>      
+      <Footer /> 
     </>
   );
 }
