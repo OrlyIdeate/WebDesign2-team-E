@@ -4,7 +4,7 @@ export function Footer() {
 
             <div class="footer-container">
                 <div class="footer-logo">
-                    <img src="logo.png" alt="Company Logo">
+                    <img src="logo.png" alt="Company Logo"/>
                 </div>
                 <div class="footer-links">
                     <h3>リンク</h3>
