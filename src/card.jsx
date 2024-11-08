@@ -1,3 +1,5 @@
+// 上野 迅
+
 export function Card(props) {
     return (
         <div style={{ width: '300px', height: '400px' }}>
