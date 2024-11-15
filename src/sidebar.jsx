@@ -1,6 +1,5 @@
 //廣澤壱聖
 import React, { useState } from 'react';
-import './sidebar.css';
 
 export function Sidebar() {
   return (
