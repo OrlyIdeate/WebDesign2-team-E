@@ -1,4 +1,6 @@
 //廣澤壱聖
+import React, { useState } from 'react';
+
 export function Sidebar() {
   
     const Sidebar = () => {
