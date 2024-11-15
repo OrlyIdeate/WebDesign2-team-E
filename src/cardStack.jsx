@@ -2,16 +2,17 @@
 
 import React from 'react';
 import { Card } from './card';
-export function CardStack() {
+export function CardStack(props) {
     return (
-        <div style={{ width: '430px', height: '430px', margin: '0', border: 'solid 1px' }}>
+        <div style={{ width: '430px', height: '460px', margin: '0' }}>
+            <h3 style={{ textAlign: 'center', marginBottom: '0'}}>{props.title}</h3>
             <div style={{ display: 'flex', flexWrap: 'wrap' }}>
-                <Card imageSrc="./images/product/apple.jpg" />
-                <Card imageSrc="./images/product/apple.jpg" />
+                <Card imageSrc={props.image1} />
+                <Card imageSrc={props.image2} />
             </div>
             <div style={{ display: 'flex', flexWrap: 'wrap' }}>
-                <Card imageSrc="./images/product/apple.jpg" />
-                <Card imageSrc="./images/product/apple.jpg" />
+                <Card imageSrc={props.image3} />
+                <Card imageSrc={props.image4} />
             </div>
         </div>
     );
