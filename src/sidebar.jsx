@@ -22,7 +22,16 @@ export function Sidebar() {
                   <li><a href="#">ファッション</a></li>
                   <li><a href="#">家電</a></li>
                   <li><a href="#">食品</a></li>
-                </ul>
+                  <li><a href="#">スポーツ・アウトドア</a></li>
+                  <li><a href="#">美容・健康</a></li>
+                  <li><a href="#">キッズ・ベビー用品</a></li>
+                  <li><a href="#">家具・インテリア</a></li>
+                  <li><a href="#">ペット用品</a></li>
+                  <li><a href="#">車・バイク用品</a></li>
+                  <li><a href="#">本・メディア</a></li>
+                  <li><a href="#">ガジェット・アクセサリー</a></li>
+                  <li><a href="#">ギフト・季節用品</a></li>
+                  </ul>
               )}
             </li>
             <li>
