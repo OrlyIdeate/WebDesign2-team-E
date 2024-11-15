@@ -1,6 +1,6 @@
-import { Footer } from './footer';
-import { Header } from './header';
-import { Sidebar } from './sidebar';
+import { Footer } from './footer/footer';
+import { Header } from './header/header';
+import { Sidebar } from './sidebar/sidebar';
 import React, { useState } from 'react';
 import { CardStack } from './cardStack';
 
