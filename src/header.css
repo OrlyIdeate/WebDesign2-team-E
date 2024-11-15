@@ -3,62 +3,207 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    background-color: #232f3e;
+    background-color: #000000;
     color: white;
-    border: 2px solid black; /* ヘッダーに黒い枠線を追加 */
 }
 
-.header-search-cart {
+/* 左側にハンバーガーメニューとロゴを配置 */
+.header-left {
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
-.header-search {
+/* ロゴエリア */
+.header-logo a {
+    color: #ffffff;
+    font-size: 24px;/* ヘッダー全体のスタイル */
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+        background-color: #232f3e;
+        color: white;
+        gap: 20px; /* 各要素の間隔 */
+    }
+    
+    /* ハンバーガーメニュー */
+    .hamburger-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+    }
+    
+    .hamburger-menu span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background: white;
+        transition: transform 0.3s ease;
+    }
+    
+    .hamburger-menu.open span:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburger-menu.open span:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburger-menu.open span:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    
+    /* ロゴ */
+    .header-logo a {
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    /* 検索バー */
+    .header-search {
+        display: flex;
+        flex: 1; /* 検索バーが適切な幅を取る */
+        max-width: 600px; /* 検索バーの最大幅 */
+        gap: 10px; /* 入力欄と検索ボタンの間隔 */
+        align-items: center;
+    }
+    
+    .header-searchInput {
+        flex: 1;
+        padding: 8px;
+        border: none;
+        outline: none;
+    }
+    
+    .header-searchButton {
+        padding: 8px 16px;
+        background-color: #febd69;
+        border: none;
+        cursor: pointer;
+        color: #111;
+        font-weight: bold;
+    }
+    
+    /* カートボタン */
+    .header-cartButton {
+        color: white;
+        text-decoration: none;
+        padding: 8px 16px;
+        background-color: #febd69;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* 右側に検索バーを配置 */
+.header-right {
     display: flex;
     flex: 1;
-    max-width: 600px;
-    margin: 0 20px;
-    border: 1px solid black; /* 検索バーに黒い枠線を追加 */
+    justify-content: flex-end;
+}
+
+/* 検索バー */
+.header-search {
+    display: flex;
+    max-width: 500px;
+    flex: 1;
 }
 
 .header-searchInput {
     flex: 1;
     padding: 8px;
-    border: 1px solid black; /* 検索入力欄に黒い枠線を追加 */
+    border: none;
     outline: none;
-    font-size: 16px;
 }
 
 .header-searchButton {
     padding: 8px 16px;
     background-color: #febd69;
-    border: 1px solid black; /* 検索ボタンに黒い枠線を追加 */
+    border: none;
     cursor: pointer;
     color: #111;
     font-weight: bold;
 }
 
-.header-navList {
+/* ハンバーガーメニュー */
+.hamburger-menu {
     display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.hamburger-menu span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: white;
+    transition: transform 0.3s ease;
+}
+
+/* メニューが開いた時のアニメーション */
+.hamburger-menu.open span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger-menu.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-menu.open span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+/* ナビゲーションメニュー */
+.header-nav {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    background-color: #232f3e;
+    border: 1px solid #444;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 100;
+}
+
+.header-nav.open {
+    display: block;
+}
+
+.header-navList {
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 .header-navItem {
-    margin-left: 20px; /* カートボタンとの間にスペースを追加 */
+    margin: 10px 0;
+}
+
+.header-navLink {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
 }
 
 .header-cartButton {
-    color: black;
+    color: white;
     text-decoration: none;
-    font-size: 16px;
-    padding: 8px 16px;
-    background-color: #febd69;
-    border: 1px solid black; /* カートボタンに黒い枠線を追加 */
-    cursor: pointer;
-}
-
-.header-cartButton:hover {
-    text-decoration: underline;
 }
