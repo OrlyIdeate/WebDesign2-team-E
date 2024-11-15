@@ -29,13 +29,16 @@ export function Header() {
                     className="header-searchInput"
                     placeholder="商品を検索"
                 />
-                <button className="header-searchButton">🔍</button>
+                <button className="header-searchButton">
+                    <img style={{ width: '15px', height: '15px', objectFit: 'contain'}} src="./images/search_icon.png" alt="虫眼鏡" />
+                </button>
             </div>
 
             {/* カートボタン */}
             <a href="/cart" className="header-cartButton">
                 カート
             </a>
+            
         </header>
     );
 }
