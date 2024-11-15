@@ -1,29 +1,41 @@
-// 土谷　祐斗
-
-import React from 'react';
+import React, { useState } from 'react';
 import './header.css';
 
 export function Header() {
-    return (
-        <header>
-            <div className="header-search-cart">
-                <div className="header-search">
-                    <input
-                        type="text"
-                        className="header-searchInput"
-                        placeholder="商品を検索"
-                    />
-                    <button className="header-searchButton">検索</button>
-                </div>
+    const [menuOpen, setMenuOpen] = useState(false); // メニューの開閉状態
 
-                <nav className="header-nav">
-                    <ul className="header-navList">
-                        <li className="header-navItem">
-                            <a href="/cart" className="header-cartButton">カート</a>
-                        </li>
-                    </ul>
-                </nav>
+    return (
+        <header className="header">
+            {/* 左から順に要素を配置 */}
+            {/* ハンバーガーメニュー */}
+            <button
+                className={`hamburger-menu ${menuOpen ? 'open' : ''}`}
+                onClick={() => setMenuOpen(!menuOpen)}
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            {/* ロゴ */}
+            <div className="header-logo">
+                <a href="/">AMAZON.CO.JP</a>
             </div>
+
+            {/* 検索バー */}
+            <div className="header-search">
+                <input
+                    type="text"
+                    className="header-searchInput"
+                    placeholder="商品を検索"
+                />
+                <button className="header-searchButton">🔍</button>
+            </div>
+
+            {/* カートボタン */}
+            <a href="/cart" className="header-cartButton">
+                カート
+            </a>
         </header>
     );
 }
