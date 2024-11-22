@@ -2,47 +2,47 @@
     {
         "genre": "食品",
         "info": [
-            {"id": 1, "name": "リンゴ", "price": 100, "image": "apple.jpg"},
-            {"id": 2,"name": "魚","price": 200,"image": "fish.jpg"},
-            {"id": 3,"name": "野菜","price": 300,"image": "vegetables.jpg"},
-            {"id": 4,"name": "カップ麺","price": 400,"image": "cup noodles.jpg"}
+            {"id": 1, "name": "リンゴ", "price": 100, "image": "./images/product/apple.jpg"},
+            {"id": 2,"name": "魚","price": 200,"image": "./images/product/fish.jpg"},
+            {"id": 3,"name": "野菜","price": 300,"image": "./images/product/vegetables.jpg"},
+            {"id": 4,"name": "カップ麺","price": 400,"image": "./images/product/cup noodles.jpg"}
         ]
 
     },
     {
         "genre": "ファッション",
         "info": [
-            {"id": 5,"name": "Tシャツ","price": 1000,"image": "tshirt.jpg"},
-            {"id": 6,"name": "ジーンズ","price": 2000,"image": "jeans.jpg"},
-            {"id": 7,"name": "ジャケット","price": 3000,"image": "jacket.jpg"},
-            {"id": 8,"name": "靴","price": 4000,"image": "shoes.jpg"}
+            {"id": 5,"name": "Tシャツ","price": 1000,"image": "./images/product/tshirt.jpg"},
+            {"id": 6,"name": "ジーンズ","price": 2000,"image": "./images/product/jeans.jpg"},
+            {"id": 7,"name": "ジャケット","price": 3000,"image": "./images/product/jacket.jpg"},
+            {"id": 8,"name": "靴","price": 4000,"image": "./images/product/shoes.jpg"}
         ]
     },
     {
         "genre": "家電",
         "info": [
-            {"id": 9,"name": "テレビ","price": 10000,"image": "tv.jpg"},
-            {"id": 10,"name": "冷蔵庫","price": 20000,"image": "refrigerator.jpg"},
-            {"id": 11,"name": "洗濯機","price": 30000,"image": "washingmachine.jpg"},
-            {"id": 12,"name": "エアコン","price": 40000,"image": "airconditioner.jpg"}
+            {"id": 9,"name": "テレビ","price": 10000,"image": "./images/product/tv.jpg"},
+            {"id": 10,"name": "冷蔵庫","price": 20000,"image": "./images/product/refrigerator.jpg"},
+            {"id": 11,"name": "洗濯機","price": 30000,"image": "./images/product/washingmachine.jpg"},
+            {"id": 12,"name": "エアコン","price": 40000,"image": "./images/product/airconditioner.jpg"}
         ]
     },
     {
         "genre": "スポーツ・アウトドア",
         "info": [
-            {"id": 13,"name": "自転車","price": 100000,"image": "bicycle.jpg"},
-            {"id": 14,"name": "テント","price": 200000,"image": "tent.jpg"},
-            {"id": 15,"name": "バーベキューセット","price": 300000,"image": "bbqset.jpg"},
-            {"id": 16,"name": "釣り具","price": 400000,"image": "fishinggear.jpg"}
+            {"id": 13,"name": "自転車","price": 100000,"image": "./images/product/bicycle.jpg"},
+            {"id": 14,"name": "テント","price": 200000,"image": "./images/product/tent.jpg"},
+            {"id": 15,"name": "バーベキューセット","price": 300000,"image": "./images/product/bbqset.jpg"},
+            {"id": 16,"name": "釣り具","price": 400000,"image": "./images/product/fishinggear.jpg"}
         ]
     },
     {
         "genre": "本・メディア",
         "info": [
-            {"id": 17,"name": "小説","price": 1000000,"image": "novel.jpg"},
-            {"id": 18,"name": "漫画","price": 2000000,"image": "manga.jpg"},
-            {"id": 19,"name": "CD","price": 3000000,"image": "cd.jpg"},
-            {"id": 20,"name": "DVD","price": 4000000,"image": "dvd.jpg"}
+            {"id": 17,"name": "小説","price": 1000000,"image": "./images/product/novel.jpg"},
+            {"id": 18,"name": "漫画","price": 2000000,"image": "./images/product/manga.jpg"},
+            {"id": 19,"name": "CD","price": 3000000,"image": "./images/product/cd.jpg"},
+            {"id": 20,"name": "DVD","price": 4000000,"image": "./images/product/dvd.jpg"}
         ]
     }
 ]
