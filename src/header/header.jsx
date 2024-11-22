@@ -19,7 +19,7 @@ export function Header() {
 
             {/* ロゴ */}
             <div className="header-logo">
-                <a href="/">AMAZON.CO.JP</a>
+                <a href="/">AMOZON.CO.JP</a>
             </div>
 
             {/* 検索バー */}
