@@ -3,9 +3,9 @@
         "genre": "食品",
         "info": [
             {"id": 1, "name": "リンゴ", "price": 100, "image": "apple.jpg"},
-            {"id": 2,"name": "イチゴ","price": 200,"image": "strawberry.jpg"},
-            {"id": 3,"name": "サクランボ","price": 300,"image": "cherry.jpg"},
-            {"id": 4,"name": "スイカ","price": 400,"image": "watermelon.jpg"}
+            {"id": 2,"name": "魚","price": 200,"image": "fish.jpg"},
+            {"id": 3,"name": "野菜","price": 300,"image": "vegetables.jpg"},
+            {"id": 4,"name": "カップ麺","price": 400,"image": "cup noodles.jpg"}
         ]
 
     },
