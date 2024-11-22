@@ -1,20 +1,27 @@
-[
+[ 
     {
         "id": 1,
-        "name": "Item 1",
+        "name": "リンゴ",
         "price": 100,
-        "image": "item1.jpg"
+        "image": "apple.jpg"
     },
     {
         "id": 2,
-        "name": "Item 2",
+        "name": "イチゴ",
         "price": 200,
-        "image": "item2.jpg"
+        "image": "strawberry.jpg"
     },
     {
         "id": 3,
-        "name": "Item 3",
+        "name": "サクランボ",
         "price": 300,
-        "image": "item3.jpg"
+        "image": "cherry.jpg"
+    },
+    {
+        "id": 4,
+        "name": "スイカ",
+        "price": 400,
+        "image": "watermelon.jpg"
     }
 ]
+
