@@ -1,7 +1,7 @@
 // 上野 迅
 
 import React from 'react';
-import { Card } from './card';
+import { Card } from './card/card';
 export function CardStack(props) {
     return (
         <div style={{ width: '430px', height: '460px', margin: '0' }}>
