@@ -3,6 +3,7 @@ import { Header } from './header/header';
 import { Sidebar } from './sidebar/sidebar';
 import React, { useState } from 'react';
 import { CardStack } from './card/cardStack';
+import items from './item.json';
 
 
 export default function App() {
