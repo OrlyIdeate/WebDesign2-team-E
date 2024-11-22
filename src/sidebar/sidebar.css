@@ -39,6 +39,12 @@ body {
     list-style-type: none;
     padding-left: 20px;
     display: none; /* 初期状態では隠す */
+    padding-left: 20px;
+}
+
+/* サブメニューが開かれたときのスタイル */
+.submenu.open {
+    display: block;
 }
 
 .submenu li a {
