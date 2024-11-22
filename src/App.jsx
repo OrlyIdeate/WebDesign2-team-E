@@ -34,6 +34,14 @@ export default function App() {
                       image2={item?.info[1]?.image}
                       image3={item?.info[2]?.image}
                       image4={item?.info[3]?.image}
+                      name1={item?.info[0]?.name}
+                      name2={item?.info[1]?.name}
+                      name3={item?.info[2]?.name}
+                      name4={item?.info[3]?.name}
+                      price1={item?.info[0]?.price}
+                      price2={item?.info[1]?.price}
+                      price3={item?.info[2]?.price}
+                      price4={item?.info[3]?.price}
                     />
                   );
                 })}
