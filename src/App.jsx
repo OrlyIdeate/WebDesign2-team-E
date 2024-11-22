@@ -2,7 +2,7 @@ import { Footer } from './footer/footer';
 import { Header } from './header/header';
 import { Sidebar } from './sidebar/sidebar';
 import React, { useState } from 'react';
-import { CardStack } from './cardStack';
+import { CardStack } from './card/cardStack';
 
 
 export default function App() {
