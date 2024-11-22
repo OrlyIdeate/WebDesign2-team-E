@@ -13,7 +13,7 @@ export default function App() {
         <Header style={{ position: 'fixed', top: 0, width: '100%' }} />
         <div style={{ display: 'flex', flex: 1}}>
           <Sidebar style={{ position: 'fixed', left: 0, height: '100%' }} />
-          <div style={{ marginLeft: '200px', padding: '20px', width: '100%' }}>
+          <div style={{ padding: '20px', width: '100%', backgroundColor: '#E8E8E8' }}>
 
             <CardStack
               title="商品群"
