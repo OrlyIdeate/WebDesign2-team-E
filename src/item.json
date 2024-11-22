@@ -1,0 +1,48 @@
+[
+    {
+        "genre": "食品",
+        "info": [
+            {"id": 1, "name": "リンゴ", "price": "100", "image": "./images/product/apple.jpg"},
+            {"id": 2,"name": "魚","price": "200","image": "./images/product/fish.jpg"},
+            {"id": 3,"name": "野菜","price": "300","image": "./images/product/vegetables.jpg"},
+            {"id": 4,"name": "カップ麺","price": "400","image": "./images/product/cup noodles.jpg"}
+        ]
+
+    },
+    {
+        "genre": "ファッション",
+        "info": [
+            {"id": 5,"name": "Tシャツ","price": "1,000","image": "./images/product/tshirt.jpg"},
+            {"id": 6,"name": "ジーンズ","price": "2,000","image": "./images/product/jeans.jpg"},
+            {"id": 7,"name": "ジャケット","price": "3,000","image": "./images/product/jacket.jpg"},
+            {"id": 8,"name": "靴","price": "4,000","image": "./images/product/shoes.jpg"}
+        ]
+    },
+    {
+        "genre": "家電",
+        "info": [
+            {"id": 9,"name": "テレビ","price": "10,000","image": "./images/product/tv.jpg"},
+            {"id": 10,"name": "冷蔵庫","price": "20,000","image": "./images/product/refrigerator.jpg"},
+            {"id": 11,"name": "洗濯機","price": "30,000","image": "./images/product/washingmachine.jpg"},
+            {"id": 12,"name": "エアコン","price": "40,000","image": "./images/product/airconditioner.jpg"}
+        ]
+    },
+    {
+        "genre": "スポーツ・アウトドア",
+        "info": [
+            {"id": 13,"name": "自転車","price": "100,000","image": "./images/product/bicycle.jpg"},
+            {"id": 14,"name": "テント","price": "200,000","image": "./images/product/tent.jpg"},
+            {"id": 15,"name": "バーベキューセット","price": "300,000","image": "./images/product/bbqset.jpg"},
+            {"id": 16,"name": "釣り具","price": "400,000","image": "./images/product/fishinggear.jpg"}
+        ]
+    },
+    {
+        "genre": "本・メディア",
+        "info": [
+            {"id": 17,"name": "小説","price": "1,000,000","image": "./images/product/novel.jpg"},
+            {"id": 18,"name": "漫画","price": "2,000,000","image": "./images/product/manga.jpg"},
+            {"id": 19,"name": "CD","price": "3,000,000","image": "./images/product/cd.jpg"},
+            {"id": 20,"name": "DVD","price": "4,000,000","image": "./images/product/dvd.jpg"}
+        ]
+    }
+]
