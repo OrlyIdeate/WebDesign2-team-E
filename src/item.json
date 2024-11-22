@@ -39,10 +39,10 @@
     {
         "genre": "本・メディア",
         "info": [
-            {"id": 17,"name": "小説","price": "1,000,000","image": "./images/product/novel.jpg"},
-            {"id": 18,"name": "漫画","price": "2,000,000","image": "./images/product/manga.jpg"},
-            {"id": 19,"name": "CD","price": "3,000,000","image": "./images/product/cd.jpg"},
-            {"id": 20,"name": "DVD","price": "4,000,000","image": "./images/product/dvd.jpg"}
+            {"id": 17,"name": "小説","price": "600","image": "./images/product/novel.jpg"},
+            {"id": 18,"name": "漫画","price": "800","image": "./images/product/manga.jpg"},
+            {"id": 19,"name": "CD","price": "1,000","image": "./images/product/cd.jpg"},
+            {"id": 20,"name": "DVD","price": "3,000","image": "./images/product/dvd.jpg"}
         ]
     }
 ]
