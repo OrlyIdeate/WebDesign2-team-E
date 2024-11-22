@@ -4,7 +4,7 @@ import React from 'react';
 import { Card } from './card';
 export function CardStack(props) {
     return (
-        <div style={{ width: '430px', height: '460px', margin: '0', backgroundColor: '#FFFFFF' }}>
+        <div style={{ width: '400px', height: '400px', marginLeft: '10', backgroundColor: '#FFFFFF' }}>
             <h3 style={{ textAlign: 'center', marginBottom: '0'}}>{props.title}</h3>
             <div style={{ display: 'flex', flexWrap: 'wrap' }}>
                 <Card imageSrc={props.image1} />
