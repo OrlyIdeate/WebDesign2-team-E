@@ -42,7 +42,7 @@ body {
     transform: translateY(-20px);
     opacity: 0; /* 初期状態は透明 */
     border-radius: 8px; /* 角丸 */
-    box-shadow: 0 4px 8px rgba(77, 250, 103, 0.418); /* ドロップシャドウ */
+    box-shadow: 0 4px 8px rgba(0, 255, 98, 0.623); /* ドロップシャドウ */
     background-color: #444; /* 背景色 */
     border-left: 4px solid transparent; /* 初期状態ではボーダー無し */
     transition: background-color 0.3s, border-left 0.3s; /* 背景とボーダーのトランジション */
