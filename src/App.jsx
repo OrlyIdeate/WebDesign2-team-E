@@ -2,7 +2,7 @@ import { Footer } from './footer/footer';
 import { Header } from './header/header';
 import { Sidebar } from './sidebar/sidebar';
 import React, { useState } from 'react';
-import { CardStack } from './cardStack';
+import { CardStack } from './card/cardStack';
 
 
 export default function App() {
@@ -11,7 +11,7 @@ export default function App() {
     <>
       <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
         <Header style={{ position: 'fixed', top: 0, width: '100%' }} />
-        <div style={{ display: 'flex', flex: 1, marginTop: '60px' }}>
+        <div style={{ display: 'flex', flex: 1}}>
           <Sidebar style={{ position: 'fixed', left: 0, height: '100%' }} />
           <div style={{ marginLeft: '200px', padding: '20px', width: '100%' }}>
 
