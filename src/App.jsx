@@ -9,18 +9,23 @@ import items from './item.json';
 export default function App() {
 
   const [data, setData] = useState([]);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   useEffect(() => {
     setData(items);
   }, []);
 
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
+
   return (
     <>
       <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-        <Header style={{ position: 'fixed', top: 0, width: '100%' }} />
+        <Header toggleSidebar={toggleSidebar} style={{ position: 'fixed', top: 0, width: '100%' }} />
         <div style={{ display: 'flex', flex: 1 }}>
-          <Sidebar style={{ position: 'fixed', left: 0, height: '100%' }} />
-          <div style={{ padding: '20px', width: '100%', backgroundColor: '#E8E8E8' }}>
+          {isSidebarOpen && <Sidebar style={{ position: 'fixed', left: 0, height: '100%' }} />}
+          <div style={{ padding: '20px', width: '100%', backgroundColor: '#E8E8E8', marginLeft: isSidebarOpen ? '200px' : '0' }}>
 
             {[...Array(2)].map((_, rowIndex) => (
               <div key={rowIndex} style={{ display: 'flex', marginBottom: '20px' }}>
