@@ -44,5 +44,32 @@
             {"id": 19,"name": "CD","price": "1,000","image": "./images/product/cd.jpg"},
             {"id": 20,"name": "DVD","price": "3,000","image": "./images/product/dvd.jpg"}
         ]
+    },
+    {
+        "genre": "美容・健康",
+        "info": [
+            {"id": 21,"name": "シャンプー","price": "500","image": "./images/product/shampoo.jpg"},
+            {"id": 22,"name": "化粧品","price": "1,000","image": "./images/product/cosmetics.jpg"},
+            {"id": 23,"name": "サプリメント","price": "2,000","image": "./images/product/supplement.jpg"},
+            {"id": 24,"name": "マッサージ器","price": "3,000","image": "./images/product/massager.jpg"}
+        ]
+    },
+    {
+        "genre": "ガジェット・アクセサリー",
+        "info": [
+            {"id": 25,"name": "スマートフォン","price": "50,000","image": "./images/product/smartphone.jpg"},
+            {"id": 26,"name": "ノートパソコン","price": "100,000","image": "./images/product/laptop.jpg"},
+            {"id": 27,"name": "スマートウォッチ","price": "200,000","image": "./images/product/smartwatch.jpg"},
+            {"id": 28,"name": "イヤホン","price": "300,000","image": "./images/product/earphone.jpg"}
+        ]
+    },
+    {
+        "genre": "ギフト・季節",
+        "info": [
+            {"id": 29,"name": "花束","price": "1,000","image": "./images/product/bouquet.jpg"},
+            {"id": 30,"name": "クリスマスケーキ","price": "2,000","image": "./images/product/christmascake.jpg"},
+            {"id": 31,"name": "バレンタインチョコ","price": "3,000","image": "./images/product/valentinechocolate.jpg"},
+            {"id": 32,"name": "ハロウィン仮装","price": "4,000","image": "./images/product/halloweencostume.jpg"}
+        ]
     }
 ]

@@ -1,8 +1,13 @@
 import React, { useState } from 'react';
 import './header.css';
 
-export function Header() {
+export function Header({ toggleSidebar }) {
     const [menuOpen, setMenuOpen] = useState(false); // メニューの開閉状態
+
+    const handleMenuClick = () => {
+        setMenuOpen(!menuOpen);
+        toggleSidebar();
+    };
 
     return (
         <header className="header">
@@ -10,7 +15,7 @@ export function Header() {
             {/* ハンバーガーメニュー */}
             <button
                 className={`hamburger-menu ${menuOpen ? 'open' : ''}`}
-                onClick={() => setMenuOpen(!menuOpen)}
+                onClick={handleMenuClick}
             >
                 <span></span>
                 <span></span>
