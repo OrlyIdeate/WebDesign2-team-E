@@ -25,7 +25,7 @@ export default function App() {
         <Header toggleSidebar={toggleSidebar} style={{ position: 'fixed', top: 0, width: '100%' }} />
         <div style={{ display: 'flex', flex: 1 }}>
           {isSidebarOpen && <Sidebar style={{ position: 'fixed', left: 0, height: '100%' }} />}
-          <div style={{ padding: '20px', width: '100%', backgroundColor: '#E8E8E8', marginLeft: isSidebarOpen ? '200px' : '0' }}>
+          <div style={{ padding: '20px', width: '100%', backgroundColor: '#E8E8E8' }}>
 
             {[...Array(2)].map((_, rowIndex) => (
               <div key={rowIndex} style={{ display: 'flex', marginBottom: '20px' }}>
